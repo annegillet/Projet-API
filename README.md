@@ -13,27 +13,19 @@ Code editor is required to read the code in the file app.py
 
 > Spyder 
 
-You also have to install the requirements.txt
+You also have to install the followed dependences:
 
 ```
-pip install -r requirements.txt
+pip install contextlib
+pip install urllib.request
+pip install dateutil.parser
+pip install json
 ```
 
 ### Installing
 
-You just have to run the instructions.py that you can change these as you see fit.
+You just have to run the Meteo.py or the Ma_petite_librairie.py 
 
-For example, you can rename your Robot:
-`first_robot = Robot("IRobot")
-first_robot.state()`
+Thanks to the Meteo.py you can be aware of the weather and the temperature of the town you choose thanks to this command:
 
-Or ask to move on whatever direction:
-`first_robot.move_on()
-first_robot.turn_right()
-first_robot.state()`
-
-Or make it better:
-`newgen_robot = RobotNG('Super Robot')`
-
-And boost it:
-`newgen_robot.boost()`
+`WEATHER[forecast[friday]['weather']], city['name'], city['cp'], forecast[friday]['tmax'])`
