@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Code editor is required to read the code in the file app.py
+Code editor is required to read the code in the file Meteo.py or Ma_petite_librairie.py 
 > Visual Studio Code
 
 > Spyder 
@@ -24,7 +24,7 @@ pip install json
 
 ### Installing
 
-You just have to run the Meteo.py or the Ma_petite_librairie.py 
+You just have to run Meteo.py or Ma_petite_librairie.py 
 
 Thanks to the Meteo.py you can be aware of the weather and the temperature of the town you choose thanks to this command:
 
